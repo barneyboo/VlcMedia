@@ -407,6 +407,11 @@ bool FVlcMediaPlayer::Open(const TSharedRef<FArchive, ESPMode::ThreadSafe>& Arch
 	return InitializePlayer();
 }
 
+bool FVlcMediaPlayer::SetNativeVolume(float volume) {
+	FVlc::AudioSetVolume(Player, (int)volume);
+	return true;
+}
+
 
 void FVlcMediaPlayer::TickInput(FTimespan DeltaTime, FTimespan /*Timecode*/)
 {
