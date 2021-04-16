@@ -87,6 +87,7 @@ public:
 	static FLibvlcAudioSetFormatProc AudioSetFormat;
 	static FLibvlcAudioSetFormatCallbacksProc AudioSetFormatCallbacks;
 	static FLibvlcAudioSetTrackProc AudioSetTrack;
+	static FLibvlcAudioSetVolumeProc AudioSetVolume;
 
 	static FLibvlcVideoGetHeightProc VideoGetHeight;
 	static FLibvlcVideoGetSizeProc VideoGetSize;

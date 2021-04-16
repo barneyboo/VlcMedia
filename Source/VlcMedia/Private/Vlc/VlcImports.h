@@ -125,6 +125,7 @@ typedef void (*FLibvlcAudioSetFormatCallbacksProc)(
 
 typedef int32 (*FLibvlcAudioGetTrackProc)(FLibvlcMediaPlayer* /*Player*/);
 typedef int32 (*FLibvlcAudioSetTrackProc)(FLibvlcMediaPlayer* /*Player*/, int32 /*TrackId*/);
+typedef int32(*FLibvlcAudioSetVolumeProc)(FLibvlcMediaPlayer* /*Player*/, int32 /*Volume*/);
 
 // video
 typedef void* (*FLibvlcVideoLockCb)(void* /*Opaque*/, void** /*Planes*/);

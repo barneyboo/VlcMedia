@@ -63,6 +63,7 @@ public:
 	virtual IMediaView& GetView() override;
 	virtual bool Open(const FString& Url, const IMediaOptions* Options) override;
 	virtual bool Open(const TSharedRef<FArchive, ESPMode::ThreadSafe>& Archive, const FString& OriginalUrl, const IMediaOptions* Options) override;
+	virtual bool SetNativeVolume(float volume) override;
 	virtual void TickInput(FTimespan DeltaTime, FTimespan Timecode) override;
 
 protected:
