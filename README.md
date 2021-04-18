@@ -12,6 +12,10 @@ Make sure to pull the *Tag* that matches your Unreal Engine version. If you sync
 to *Master* the code may not compile, because it may depend on Engine changes
 that are not yet available in the UE4 Master branch.
 
+## Added features
+
+This fork includes support for the SetNativeVolume function to allow the volume of media to be set at runtime.
+
 
 ## Supported Platforms
 
